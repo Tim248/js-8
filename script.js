@@ -1,6 +1,6 @@
 let users = {};
 
-for (let i = 1; i <= 1; i++) {
+for (let i = 0; i <= 10; i++) {
     let userName = prompt('Введите имя');
     let userAge = +prompt('Введите возраст');
     users[i] = {
